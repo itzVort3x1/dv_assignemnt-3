@@ -46,13 +46,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install Required Packages
-The required dependencies are specified in the `requirements.txt` file. Install them by running:
-
-```bash
-pip install -r requirements.txt
-```
-
-If there is no `requirements.txt` file, manually install the following dependencies:
+Manually install the following dependencies:
 
 ```bash
 pip install dash plotly pandas numpy dash-bootstrap-components
