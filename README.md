@@ -87,6 +87,8 @@ If you are running the application on a remote server, replace `127.0.0.1` with 
 -   If you make changes to the code in `app.py`, the server will auto-reload, and the changes will reflect on refreshing the browser.
 -   For deployment to a production environment, consider using services like **Heroku**, **AWS**, or **Google Cloud Platform**.
 
-<video width="620" height="340" controls>
-  <source src="./artifact.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/user-attachments/assets/4b54b8df-a473-47c3-ab2f-63467fe17034
+
+
