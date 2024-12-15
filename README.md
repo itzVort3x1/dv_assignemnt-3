@@ -5,31 +5,35 @@ This guide explains how to set up and run the Dash project located in the `app.p
 ---
 
 ## Prerequisites
+
 Ensure you have the following installed on your system:
 
 1. **Python (>=3.7)**
-   - Verify installation:
-     ```bash
-     python --version
-     ```
+
+    - Verify installation:
+        ```bash
+        python --version
+        ```
 
 2. **Pip** (Python package installer)
-   - Verify installation:
-     ```bash
-     pip --version
-     ```
+
+    - Verify installation:
+        ```bash
+        pip --version
+        ```
 
 3. **Virtual Environment (Optional but Recommended)**
-   - Install virtualenv if not already installed:
-     ```bash
-     pip install virtualenv
-     ```
+    - Install virtualenv if not already installed:
+        ```bash
+        pip install virtualenv
+        ```
 
 ---
 
 ## Steps to Run the Project
 
 ### 1. Clone the Repository
+
 If the project is in a Git repository, clone it to your local machine:
 
 ```bash
@@ -38,6 +42,7 @@ cd <repository-folder>
 ```
 
 ### 2. Set Up a Virtual Environment (Optional)
+
 To isolate the project dependencies:
 
 ```bash
@@ -46,6 +51,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install Required Packages
+
 Manually install the following dependencies:
 
 ```bash
@@ -53,6 +59,7 @@ pip install dash plotly pandas numpy dash-bootstrap-components
 ```
 
 ### 4. Run the Application
+
 To start the Dash application, run the `app.py` file:
 
 ```bash
@@ -77,6 +84,9 @@ If you are running the application on a remote server, replace `127.0.0.1` with 
 
 ## Notes
 
-- If you make changes to the code in `app.py`, the server will auto-reload, and the changes will reflect on refreshing the browser.
-- For deployment to a production environment, consider using services like **Heroku**, **AWS**, or **Google Cloud Platform**.
+-   If you make changes to the code in `app.py`, the server will auto-reload, and the changes will reflect on refreshing the browser.
+-   For deployment to a production environment, consider using services like **Heroku**, **AWS**, or **Google Cloud Platform**.
 
+<video width="620" height="340" controls>
+  <source src="./artifact.mp4" type="video/mp4">
+</video>
